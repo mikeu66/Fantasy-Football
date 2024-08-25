@@ -11,7 +11,7 @@ position_select = st.sidebar.selectbox(
     options= ["QB","RB","WR","TE"]
 )
 
-df = pd.read_csv('/Users/michaelwalter/Documents/CodeProjects/Fantasy Football/NFL-Data/NFL-data-Players/2023/'+position_select+'_season.csv')
+df = pd.read_csv(position_select+'_season.csv')
 
 
 #st.sidebar.header("Please Filter Here:")
