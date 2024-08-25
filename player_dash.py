@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-import plotly 
-import plotly.express as px
+# import plotly 
+# import plotly.express as px
 
 st.set_page_config(page_title="Football", 
                    layout="wide")
